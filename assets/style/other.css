@@ -1,0 +1,663 @@
+html,
+ body {
+     margin: 0px 0 0;
+     padding: 0;
+     background: #fff;
+     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4 {
+     color: #5F5C5C;
+ }
+ 
+ #header {
+     margin: 0;
+     padding: 5px 0 5px 40%;
+     background-color: #842626;
+     height: 65px;
+     width: 100%;
+     background-image: url('img/fb-hack-logo.png');
+     background-repeat: no-repeat;
+     background-position: 5%;
+     position: fixed;
+     top: 0;
+    
+ }
+ 
+ #user_profile {
+     float: right;
+     margin:-105px -20px 100px 20px;
+     border-left: 10px solid #842626;
+     border-bottom: 10px solid #842626;
+     border-radius: 10px;
+     min-width: 260px !important;
+     color: #87888A;
+     box-shadow: 0px 1px 0px #000;
+     
+ }
+ 
+ #user_profile td {
+     background:#842626;
+     color: #aeaeb1;
+     border: 1px solid #9f6e6e;
+     padding: 4%;
+ }
+#user_profile #link_td:hover {
+    background: #842626;
+    font-weight: bold;
+}
+ 
+.super_user_table {
+    width: auto;
+    height: 100%;
+    margin: 30px auto;
+   
+}
+.super_user_table td {
+     padding: 5px 5px;
+}
+ table {
+     border: 1px solid grey;
+ }
+ 
+ th {
+     border: 2px solid grey;
+     padding: 5px;
+     background: #ddd;
+     font-size: 15px;
+ }
+ #super_admin_section_detail {
+         font-size: 22px;
+         text-align: center;
+         margin:20% 0 0 37%;
+         
+     }
+ #facebook_header {
+     margin: 0;
+     padding: 5px 0;
+     background: #3a5795;
+     border-bottom: 1px solid #133783;
+     height: 82px;
+     width: 100%;
+ }
+ 
+ #facebook_header img {
+     margin: 20px 3px 0 150px;
+ }
+ 
+ #admin_title {
+     text-align: center;
+     margin-bottom: 30px;
+     font-size: 28px;
+ }
+ 
+ #header img {
+     margin: -10px 0 0 30px;
+     padding: 0;
+ }
+ 
+ #image {
+     position: relative;
+     left: -130px;
+     top: -12px;
+ }
+ 
+ tr:nth-child(even) {
+     background-color: #e7edf6;
+ }
+ 
+ td {
+     border: 1px solid grey;
+     padding: 5px;
+     text-align: center;
+ }
+ 
+ table {
+     margin: 30px 0;
+     border-collapse: collapse;
+     min-width: 100px;
+ }
+ 
+ .container {
+     width: 50%;
+     min-height: 250px;
+    border: 10px solid #F1F1F1;
+     margin: 180px auto;
+     background: #ffffff;
+     padding: 20px;
+     box-shadow: 0 2px 2px grey;
+ }
+ 
+ .login_register_container {
+     width: 50%;
+     min-height: 250px;
+     border: 1px solid #D0CCCC;
+     margin: 130px auto;
+     background: #ffffff;
+     padding: 20px;
+     box-shadow: 0 2px 2px grey;
+ }
+.super_admin_container {
+     width: 70%;
+     min-height: 250px;
+     border: 1px solid #D0CCCC;
+     margin: 15% auto;
+     background: #ffffff;
+     padding: 20px;
+     box-shadow: 0 2px 2px grey;
+}
+ div.message_danger {
+     border: 2px solid #8D0D19;
+     color: #8D0D19;
+     font-weight: bold;
+     margin: 1em 0;
+     padding: 1em;
+     text-align: center;
+	 font-size: 15px;
+ }
+ 
+ .message_danger_1 {
+     border: 2px solid #8D0D19;
+     color: #8D0D19;
+     font-weight: bold;
+     margin: 1em 0;
+     padding: 1em;
+     font-size: 15px;
+ }
+ 
+ #delete_button {
+     margin-left: 7%;
+ }
+ 
+ #logout_button {
+     width: 80% !important;
+     color: #C3C4C5;
+ }
+ 
+ #logout_button:hover {
+     text-decoration: none;
+     color: #343232;
+ }
+ 
+ div.message_success {
+     border: 2px solid #257213;
+     color: #126a12;
+     font-weight: bold;
+     margin: 2em 0;
+     padding: 1em;
+     text-align: center;
+     font-size: 15px;
+ }
+ 
+ #login_button_div {
+     width: 100%;
+     text-align: center;
+ }
+ 
+ form #register_link {
+     margin: 10px;
+     margin: : ;
+     height: 30px;
+     width: 100%;
+     text-align: center;
+     padding: 2% 0 0 0;
+ }
+ 
+ form #register_link a:hover {
+     text-decoration: none;
+ }
+ 
+ #gmail_crdentials h2 {
+     text-align: center;
+     margin-bottom: 40px;
+ }
+ 
+ #lookup_button {
+     margin-left: 33%;
+     background: #3C9A43;
+     width: 30%;
+     height: 35px;
+ }
+ 
+ #url_setup_form {
+     width: 85%;
+     padding: 3%;
+ }
+ 
+ #lookup_button:hover {
+     background: #16c423;
+ }
+ 
+ .full_width {
+     width: 100%;
+ }
+ 
+ #url_button {
+     background: #544949;
+     width: 30%;
+     margin: 3px auto;
+ }
+ 
+ #logindiv {
+     margin: 0;
+     min-width: 200px;
+     height: 100%;
+     color: aliceblue;
+     padding: 3px;
+     text-align: center;
+ }
+ 
+ #logindiv #username {
+     padding: 1%;
+     text-align: center;
+ }
+ 
+ #logindiv a {
+     padding: 1px 8px 4px;
+     margin-right: 6%;
+ }
+ 
+ #login_button {
+     background: #544949;
+     width: 30%;
+ }
+ 
+ #url_button:hover {
+     background: #675e5e;
+ }
+ 
+ hr {
+     border-bottom: 1px solid #f2ebeb;
+ }
+ 
+ .credential {
+     width: 70%;
+     min-height: 40%;
+     margin: 50px auto;
+ }
+ 
+ input[type='url'],
+ input[type='email'],
+ #username,
+ #password {
+     height: 30px;
+     width: 100%;
+     border: 1px solid #cec7c7;
+     margin: 7px 0 15px 0;
+     padding: 0 7px;
+ }
+ 
+ input[type='text'] {
+     height: 25px;
+     width: 100%;
+     border: 1px solid #cec7c7;
+     margin: 7px 0;
+     padding: 0 7px;
+ }
+ 
+ input[type='password'] {
+     height: 25px;
+     width: 100%;
+     border: 1px solid #cec7c7;
+     margin: 7px 0;
+     padding: 0 7px;
+ }
+ 
+ input[type="submit"] {
+     width: 73%;
+     height: 30px;
+     background: brown;
+     color: white;
+ }
+ 
+ #delete_button {
+     width: auto;
+     height: 30px;
+     background: #DED9D9;
+     color: #000000;
+     padding: 3px 20px;
+     margin: 0 2px 0 0;
+     font-size: 14px;
+     border-radius: 3px;
+     box-shadow: 0px 1px 1px #000;
+ }
+ 
+ #delete_button:hover {
+     text-decoration: none;
+     background: red;
+     color: aliceblue;
+ }
+ 
+ input[type="number"] {
+     width: 31%;
+     height: 27px;
+     color: white;
+     border: 1px solid #ccc;
+     padding: 5px;
+     color: black;
+     margin-left: 33%;
+     margin-bottom: 15px;
+ }
+ 
+ input[type="submit"]:hover {
+     background: #c41616;
+ }
+ 
+ label {
+     font-weight: bold;
+     font-size: 16px;
+     color: #505050;
+ }
+ 
+ #checkbox {
+     height: 13px;
+     width: 13px;
+     border: 1px solid #cec7c7;
+     margin: 5px 0 7px 0;
+ }
+ 
+ input[type='checkbox'] {
+     height: 10px;
+     width: 10px;
+     position: relative: left: 10px;
+ }
+ 
+ #button {
+     margin: 13px 0 0 0;
+ }
+ 
+ #sign_up {
+     position: relative;
+     top: -7px;
+     font-size: 13px;
+ }
+ 
+ #sign_up_blue {
+     color: #3a5795;
+     position: relative;
+     top: -7px;
+     font-weight: bold;
+     font-size: 13px;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #3a5795;
+ }
+ 
+ a:hover {
+     color: #3a5795;
+     text-decoration: underline;
+ }
+ 
+ #forgot {
+     font-size: 13px;
+     color: #3a5795;
+     position: relative;
+     top: -15px;
+     left: 40px;
+ }
+ 
+ footer {
+     height: 195px;
+     width: 100%;
+     background: #ffffff;
+     padding: 30px;
+     font-size: 13px;
+     margin-top: 80px;
+     text-align: center;
+ }
+ /* ul {
+ 	list-style: none;
+ 	margin: 8px 0 5px -50px;
+ }
+ 
+ ul li {
+ 	display: inline;
+ 	margin: 10px;
+ }
+ */
+ 
+ .list {
+     margin: 8px 0 5px -60px;
+ }
+ 
+ .list li {
+     margin: 0 20px;
+ }
+ 
+ #copy {
+     font-size: 12px;
+     color: #969696;
+ }
+.login_info {
+       text-align: center;
+    /* margin: 20px -6% 0 0; */
+    margin: -10px 0 0 45%;
+    box-shadow: 1px 1px 1px #000;
+    color: #A09E9F;
+    background: rgba(0,0,0,0.2);/*#672E2E;*/
+  /*  border-right:2px solid #5D2828; */
+    width: 16%;
+    padding-top: 2% ;
+    height: 77%;
+    border-left: 2px solid #5D2828;
+	border-bottom: 2px solid #5D2828;
+}
+
+.login_info a {
+	font-size: 14px;
+}
+.login_info a:hover {
+	color: #9a8a8a !important;
+}
+
+
+ h3 {
+     margin: 30px 0 0 27%;
+ }
+ 
+ button {
+     background: none;
+     border: 0;
+ }
+ 
+ button:hover {
+     cursor: hand;
+ }
+ 
+ #admin_footer {
+     height: 50px;
+     margin-top: 10%;
+     background: #842626;
+     padding: 0px 0 50px 0;
+ }
+ 
+ footer p {
+     text-align: center;
+     color: grey;
+     position: relative;
+     right: 2%;
+     
+ }
+
+ @media only screen and (min-width:768px) and (max-width:1024px) {
+     input[type="submit"] {
+         width: 36%;
+         height: 40px;
+         background: brown;
+         color: white;
+         margin-left: -5%;
+     }
+     footer p {
+         text-align: center;
+         color: grey;
+         position: relative;
+         right: 2%;
+     }
+     #lookup_button {
+         margin-left: 33%;
+         background: #3C9A43;
+         width: 35%;
+         height: 35px;
+     }
+     input[type="submit"] {
+         width: 80%;
+         height: 30px;
+         background: brown;
+         color: white;
+     }
+     #user_profile {
+     float: right;
+     min-width: 250px !important;
+     color: #87888A;
+     margin:-20px -20px 30px 20px;
+     border-left: 10px solid #F1F1F1;
+     border-bottom: 10px solid #F1F1F1;
+     border-radius: 10px;
+     min-width: 250px !important;
+     color: #87888A;
+     
+ }
+ 
+ #user_profile td {
+     background:#842626;
+     color: #b7b9bf;
+     border: 1px solid #ECE9E9;
+     padding: 4%;
+ }
+ 
+     #admin_title {
+     text-align: center;
+     margin-bottom: 30px;
+     font-size: 30px;
+ }
+ }
+ 
+ @media only screen and (min-width:320px) and (max-width:777px) {
+     #header {
+         margin: 0;
+         background-color: #842626;
+         border-bottom: 1px solid #133783;
+         height: 85px;
+         width: 100%;
+         background-image: url('img/fb-hack-logo.png');
+         background-size: 65% 65%;
+         background-repeat: no-repeat;
+         background-position: 13%;
+     }
+     #admin_title {
+         text-align: center;
+         margin-top: 160px;
+         font-size: 20px;
+     }
+     #delete_button {
+         padding: 1px;
+         font-size: 9px;
+         padding: 3px 18px;
+         border-radius: 3px;
+         box-shadow: 0px 1px 1px #000;
+     }
+     input[type='url'] {
+         height: 25px;
+         width: 100%;
+         border: 1px solid #cec7c7;
+         margin-bottom: 20px;
+         margin-top: 5px;
+         padding: 0 7px;
+         font-size: 12px;
+     }
+     .login_register_container {
+         width: 80%;
+         min-height: 250px;
+         border: 1px solid #D0CCCC;
+         margin: 50px auto;
+         background: #ffffff;
+         padding: 20px;
+         box-shadow: 0 2px 2px grey;
+     }
+     .container {
+         width: 80%;
+         min-height: 250px;
+         border: 1px solid #D0CCCC;
+         margin: 150px auto;
+         background: #ffffff;
+         padding: 10px;
+         box-shadow: 0 2px 2px grey;
+     }
+     
+     #user_profile {
+         margin: 10px 0 30px;
+         border: 10px solid #F1F1F1;
+         min-width: 250px !important;
+         color: #87888A;
+     }
+     label {
+         font-size: 12px;
+     }
+     #logIn {
+         font-weight: bold;
+         font-size: 14px !important;
+     }
+     #login_button {
+         background: #544949;
+         width: 90%;
+         font-size: 12px;
+     }
+     table {
+         font-size: 13px;
+         border: 1px solid grey;
+         width: 97%;
+         padding: 0;
+     }
+     th {
+         font-size: 7px;
+     }
+     td {
+         padding: 4px;
+         font-size: 10px;
+     }
+     #lookup_button {
+         margin: 0 auto 0 25%;
+         background: #3C9A43;
+         font-size: 9px;
+         width: 40%;
+         height: 25px;
+     }
+     #url_button {
+         background: #544949;
+         width: 30%;
+         height: 25px;
+         font-size: 9px;
+         margin: 3px auto;
+     }
+     #gmail_crdentials h2 {
+         text-align: center;
+         margin-bottom: 30px;
+         font-size: 19px;
+     }
+     input[type="number"] {
+         width: 80%;
+         height: 25px;
+         color: white;
+         border: 1px solid #ccc;
+         padding: 5px;
+         color: black;
+         margin-left: 3%;
+         margin-bottom: 15px;
+         font-size: 13px;
+     }
+     footer p {
+         text-align: center;
+         color: grey;
+         position: relative;
+         right: 4%;
+     }
+     .section_detail {
+         font-size: 13px;
+         
+     }
+ }

@@ -1,0 +1,256 @@
+/* 
+    Created on : 31 Mar, 2014, 3:03:25 PM
+    Author     : Tamil
+*/
+
+.container {
+  bottom: 0px;
+  width: 255px;
+  position: fixed;
+  z-index: 500;
+  margin-left: 50%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  font-family: 'tahoma';
+  font-size: 12px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .3);
+
+
+}
+#login_container {
+  width: 230px !important;
+}
+/* message box header styles*/
+
+.msg-wgt-header {
+  background-color: #5377C1;
+  border: 1px solid rgba(0, 39, 121, 0.76);
+  color: white;
+  text-align: center;
+  height: 28px;
+  width: 100%;
+  border: 3px solid #5380C1;
+}
+
+.msg-wgt-header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+}
+
+/* message box body styles*/
+
+.msg-wgt-body {
+  max-height: 300px;
+  overflow-y: scroll; 
+  padding: 3px;
+  width: 100%;
+  background: #fff;
+}
+
+.msg-wgt-body table {
+  width: 100%;
+}
+
+.msg-row-container {
+  border-bottom: 1px solid lightgray;
+	min-height: 100px;
+}
+
+.msg-row-container td {
+  border-bottom: 1px solid lightgray;
+  padding: 3px 0 3px 2px;
+}
+
+.msg-row {
+
+	min-height:30px;
+  width: 100%;
+}
+
+.message {
+  margin-left: 40px;
+}
+
+/* Message box footer styles*/
+
+.msg-wgt-footer {
+  height: 50px;
+}
+
+.msg-wgt-footer textarea {
+  width: 95%;
+  font-family: 'tahoma';
+  font-size: 13px;
+  padding: 5px;
+}
+
+.user-label {
+  font-size: 11px;
+}
+.font_size {
+	font-size: 12px;
+ 
+}
+.msg-time {
+  font-size: 10px;
+  float: right;
+  color: gray;
+  margin-left: 30px;
+}
+#msg_width {
+ 	 width:180px;
+  min-height: 30px;
+	color:#3e3c3c;
+	font-size: 13px;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+  float: left;
+  background: url('/assets/chat_avatar.png');
+  border: 1px solid lightgray;
+}
+.avatar {
+  border-radius: 10%;
+  border:none;
+}
+#chat_input {
+	width: 92.2%;
+	height: 25px;
+	border-radius: 4px;
+	border: 1px solid #c7c1c1;
+	margin: 5px;
+	padding: 5px 5px;
+  outline:none !important;
+  resize:none;
+	
+}
+.minimize {
+
+
+	width: 10%;
+	height: 100%;
+  float: right;
+	margin: -30px 20px 0;
+  
+	
+
+}
+.close {
+  width: 10%;
+  height: 90%;
+  float: right;
+  margin: -30px 0 0;
+  
+  padding-top:5px; 
+}
+.open {
+	width: 80%;
+  height: 85%;
+	padding-top: 6px;
+
+}
+ 
+.status_wrapper {
+  background:#143f76;
+  width: 19%;
+  float: right;
+  z-index: 500;
+  margin:-60px 0 0;
+  padding: 30px 30px 30px 30px;
+  border-right: 5px solid #234C80;
+  
+}
+#status_wrapper_body {
+  overflow-y:scroll;
+  width: 100%;
+  
+  padding:4px; 
+  border-top:1px solid #182f5c; 
+}
+#status_table td {
+ /* border: 1px solid grey; */ 
+  padding: 5px 2px;
+/* border:1px solid grey; */
+}
+#status_table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 0px;
+
+}
+#status_table a {
+ color:#D9D7DC !important;
+ font-family:Helvetica;
+ font-size: 13px;
+ text-decoration: none;
+}
+.status_circle {
+  height: 9px;
+  width: 9px;
+  border-radius: 100%;
+  background: #0CEC0C;
+}
+#status_offline {
+   background: #596580 !important;
+}
+#username_td {
+  text-align: left;
+  min-width: 50px;
+
+
+}
+#avatar_td {
+  text-align: left;
+  width: 40px;
+
+
+}
+#status_td {
+  text-align: right;
+  padding-left: 30px !important;
+}
+#status_header {
+  width: 100%;
+  height: 50px;
+  padding: 4px;
+ 
+  margin-bottom: 20px; 
+}
+/*======================other css==========*/
+/*========change scrollbar for chrome========*/
+.flexcroll{ width:400px;
+            height:544px;
+            overflow-y:scroll;
+           }
+.flexcroll{
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: #FFFFFF;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+}
+
+/* Let's get this party started */
+.flexcroll::-webkit-scrollbar {
+    width: 9px;
+}
+ 
+/* Track */
+.flexcroll::-webkit-scrollbar-track {
+   
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+.flexcroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:#052b72;  
+    -webkit-box-shadow: inset 0 0 6px rgba(8, 23, 64, 0.5); 
+}

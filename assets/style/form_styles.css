@@ -1,0 +1,91 @@
+body {
+    background: #234C80;
+  }
+  .error {
+    color: #ff0000;
+  }
+  
+  .container {
+    margin: 20px auto;
+    width: 30%;
+    padding: 30px;
+    border:4px solid #DAD6D6;
+    background: #FDFDFD;
+  }
+  #login_container {
+  width: 25% !important;
+  margin-top: 40px !important;
+  }
+  
+  .container h2 {
+    text-align: center;
+    color: grey;
+  }
+  
+  input {
+    width: 100%;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 8px;
+    border: 1px solid grey;
+  }
+  
+  input:focus {
+    border-color: blue;
+  }
+  
+  form {
+    padding: 30px;
+    border: 2px solid #d9d8d8;
+	  box-shadow: 1px 1px 1px grey;
+  }
+  
+  textarea {
+    width: 102%;
+    padding: 7px;
+    margin-top: 8px;
+    border: 1px solid grey;
+  }
+  
+  input[type="submit"] {
+    background: #982828;
+    padding: 10px;
+    color: white;
+    width: 70%;
+    margin: 10% 15% 3% 15%;
+    text-transform: uppercase;
+    border-bottom: 4px solid #401414;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 4px solid grey;
+  }
+  
+  input[type="radio"] {
+    width: 10%;
+    color: red;
+  }
+  input[type="text"],input[type="password"]{
+    border-radius:3px; 
+  }
+  select {
+    outline: none !important;
+  }
+  div.message_success { 
+  border: 2px solid #257213;
+  color: #126a12; font-weight: bold;
+  margin: 1em 0 ; padding: 1em; 
+}
+div.message_danger { 
+  border: 2px solid brown;
+  color: brown; font-weight: bold;
+  margin: 1em 0 ; padding: 1em; 
+}
+.signup_signin {
+  text-align: center;;
+}
