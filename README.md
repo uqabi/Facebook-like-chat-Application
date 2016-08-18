@@ -1,2 +1,2 @@
 # Facebook-like-chat-Application
-A facebook like chat App.
+ Facebook like chat App is PHP and mysql based chat application.
