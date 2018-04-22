@@ -1,0 +1,24 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 54FA-23F8
+
+ Directory of C:\Users\kami_\Desktop\git_learning_jeffery\fb_chat_repo\Facebook-Like-Chat-Application
+
+04/22/2018  12:50 PM    <DIR>          .
+04/22/2018  12:50 PM    <DIR>          ..
+04/22/2018  12:49 PM    <DIR>          assets
+04/22/2018  12:49 PM             1,320 chat.WAV
+04/22/2018  12:49 PM             2,624 core_class.php
+04/22/2018  12:49 PM               284 delete.php
+04/22/2018  12:49 PM             1,288 get_message.php
+04/22/2018  12:49 PM             4,014 index.php
+04/22/2018  12:49 PM    <DIR>          js
+04/22/2018  12:49 PM             2,354 login.php
+04/22/2018  12:49 PM               440 logout.php
+04/22/2018  12:50 PM                 0 newfiel.txt
+04/22/2018  12:49 PM               100 README.md
+04/22/2018  12:49 PM             3,265 register.php
+04/22/2018  12:49 PM             5,700 registration_class.php
+04/22/2018  12:49 PM               563 send_message.php
+04/22/2018  12:49 PM               754 session.php
+              13 File(s)         22,706 bytes
+               4 Dir(s)  21,740,531,712 bytes free
